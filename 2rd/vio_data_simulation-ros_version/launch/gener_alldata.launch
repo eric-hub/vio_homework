@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="vio_data_simulation" type="vio_data_simulation_node" name ="vio_data_simulation_node" output="screen">
+    </node>
+</launch>
