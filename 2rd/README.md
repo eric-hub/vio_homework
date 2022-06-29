@@ -199,7 +199,7 @@ std::vector<MotionData> imudata;
 
 #### 2.3 Kalibr_allan标定
 
-	##### 	matlab安装
+##### 	matlab安装
 
 ​	参考地址:https://blog.csdn.net/ZB18810657133/article/details/115793719
 
@@ -433,7 +433,7 @@ kalibr_allan的标定结果比imu_utils更准确,推荐kalibr_allan(就是装mat
 
 ​		通过李代数SE3和se3表示
 
-	##### 	3.1.1 摄像头位置转换
+##### 	3.1.1 摄像头位置转换
 
 
 
@@ -459,7 +459,7 @@ kalibr_allan的标定结果比imu_utils更准确,推荐kalibr_allan(就是装mat
 
 ​		$T_{w,s}(t)$是在时间t内的位姿
 
-		##### 	3.1.4 立体累计B样条
+	##### 	3.1.4 立体累计B样条
 
 ​		![26](/home/eric/vio_homework/2rd/images/26.png)
 
@@ -469,7 +469,7 @@ kalibr_allan的标定结果比imu_utils更准确,推荐kalibr_allan(就是装mat
 
 #### 	3.2 生成视觉惯性模型
 
-	##### 	3.2.1 参数化
+##### 	3.2.1 参数化
 
 ​	![28](/home/eric/vio_homework/2rd/images/28.png)
 
@@ -479,11 +479,11 @@ kalibr_allan的标定结果比imu_utils更准确,推荐kalibr_allan(就是装mat
 
 ​		定义磁力计和加速度
 
-		##### 	3.2.1 最小化公式
+##### 	3.2.1 最小化公式
 
 ​	![30](/home/eric/vio_homework/2rd/images/30.png)
 
-	#### 	3.3 工程化相机模型
+#### 	3.3 工程化相机模型
 
 ![31](/home/eric/vio_homework/2rd/images/31.png)
 
