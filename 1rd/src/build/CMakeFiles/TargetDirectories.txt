@@ -1,0 +1,4 @@
+/home/eric/vio_homework/1rd/src/build/CMakeFiles/rebuild_cache.dir
+/home/eric/vio_homework/1rd/src/build/CMakeFiles/edit_cache.dir
+/home/eric/vio_homework/1rd/src/build/CMakeFiles/compare.dir
+/home/eric/vio_homework/1rd/src/build/CMakeFiles/compare2.dir

@@ -72,9 +72,9 @@ std::vector<MotionData> imudata;
 
 编译与以上步骤一样。以下是结果对比
 
-|                        欧拉法                        |                     中值法                     |
-| :--------------------------------------------------: | :--------------------------------------------: |
-| ![ol.png](/home/eric/vio_homework/2rd/images/ol.png) | ![](/home/eric/vio_homework/2rd/images/zz.png) |
+|          欧拉法          |       中值法       |
+| :----------------------: | :----------------: |
+| ![ol.png](images/ol.png) | ![](images/zz.png) |
 
 明显看出中值法优于欧拉法
 
@@ -313,10 +313,10 @@ std::vector<MotionData> imudata;
 
 - 结果如下		
 
-|                             ACC                              |                             GRO                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![acc](/home/eric/vio_homework/2rd/images/results_20220629T092430_accel.png) | ![gro](/home/eric/vio_homework/2rd/images/results_20220629T092430_gyro.png) |
-|                   bias:0.0005 noise:0.019                    |                   bias:0.00005 noise:0.015                   |
+|                       ACC                        |                       GRO                       |
+| :----------------------------------------------: | :---------------------------------------------: |
+| ![acc](images/results_20220629T092430_accel.png) | ![gro](images/results_20220629T092430_gyro.png) |
+|             bias:0.0005 noise:0.019              |            bias:0.00005 noise:0.015             |
 
 kalibr_allan的标定结果比imu_utils更准确,推荐kalibr_allan(就是装matlab有些麻烦)
 
@@ -332,11 +332,11 @@ kalibr_allan的标定结果比imu_utils更准确,推荐kalibr_allan(就是装mat
 
 
 
-![20](/home/eric/vio_homework/2rd/images/20.png)
+![20](images/20.png)
 
 ​		这里 $ b,a $ 代表从a坐标系到b坐标系
 
-​		![21](/home/eric/vio_homework/2rd/images/21.png)	
+​		![21](images/21.png)	
 
 ​		代表线速度
 
@@ -346,19 +346,19 @@ kalibr_allan的标定结果比imu_utils更准确,推荐kalibr_allan(就是装mat
 
 ##### 	3.1.3 B样条累计误差函数表示
 
-![22](/home/eric/vio_homework/2rd/images/22.png)
+![22](images/22.png)
 
-![23](/home/eric/vio_homework/2rd/images/23.png)
+![23](images/23.png)
 
-![24](/home/eric/vio_homework/2rd/images/24.png)
+![24](images/24.png)
 
 ​		$T_{w,s}(t)$是在时间t内的位姿
 
 ##### 3.1.4 立体累计B样条
 
-​		![26](/home/eric/vio_homework/2rd/images/26.png)
+​		![26](images/26.png)
 
-​	![27](/home/eric/vio_homework/2rd/images/27.png)
+​	![27](images/27.png)
 
 ​		这里没看很懂
 
@@ -366,20 +366,20 @@ kalibr_allan的标定结果比imu_utils更准确,推荐kalibr_allan(就是装mat
 
 ##### 	3.2.1 参数化
 
-​	![28](/home/eric/vio_homework/2rd/images/28.png)
+​	![28](images/28.png)
 
 ​		定义像素表示模型
 
-​	![29](/home/eric/vio_homework/2rd/images/29.png)
+​	![29](images/29.png)
 
 ​		定义磁力计和加速度
 
 ##### 	3.2.1 最小化公式
 
-​	![30](/home/eric/vio_homework/2rd/images/30.png)
+​	![30](images/30.png)
 
 #### 	3.3 工程化相机模型
 
-![31](/home/eric/vio_homework/2rd/images/31.png)
+![31](images/31.png)
 
-![32](/home/eric/vio_homework/2rd/images/32.png)
+![32](images/32.png)

@@ -8,3 +8,6 @@ find_package(Sophus REQUIRED)
 include_directories("/usr/include/eigen3")
 add_executable(compare compare.cpp)
 target_link_libraries(compare Sophus::Sophus)
+
+add_executable(compare2 compare2.cpp)
+target_link_libraries(compare2 Sophus::Sophus)
