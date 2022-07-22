@@ -16,9 +16,15 @@
 
 ![](./images/03.jpeg)
 
-![](./images/04.jpeg)
+参考这篇文字[Fisher Information Matrix](https://agustinus.kristia.de/techblog/2018/03/11/fisher-information/)
 
-如上信息矩阵H等于协方差矩阵的逆
+information 定义如下
+
+![](./images/02.png)
+
+![](./images/03.png)
+
+在实际应用中，通常Hessian矩阵表示Information矩阵。原因是对某个时刻，其似然概率密度函数是一个单位脉冲函数，整个自变量取值范围内仅仅只有一个地方概率为1，其余为0，所以Hessian矩阵期望退化为Hessian.出自[这里](https://www.zhihu.com/question/388238460)。
 
 ### 3 作业补充，奇异值最后7位接近0
 
